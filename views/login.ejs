@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+
+</head>
+
+
+<body>
+    <!-- <h1>welcome</h1>
+    <p>hello <%=locals.name %></p> -->
+    <main>
+        <h1>Login now</h1>
+        <form method="post" action="/login">
+         
+         <input type="email" name="email" value="<%=locals.email%>">
+         <input type="password" name="password">
+         <button type="submit">Login</button>
+         <p class="error">  <%=locals.message%></p>
+
+        </form>
+    </main>
+
+
+</body>
+
+
+</html>
